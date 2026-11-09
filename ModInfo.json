@@ -1,0 +1,11 @@
+{
+    "id": "фотограф.phoyo_furniture_and_architect",
+    "name": "Phoyo: Furniture & Architect",
+    "description": "Добавляет новые професии и типы комнат",
+    "author": "Фотограф",
+    "modVersion": "0.1",
+    "gameVersion": "1.2.17",
+    "tags": [
+        "General"
+    ]
+}
