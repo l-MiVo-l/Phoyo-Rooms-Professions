@@ -1,9 +1,9 @@
 {
     "id": "фотограф.phoyo_rooms_and_professions",
     "name": "Phoyo: Rooms & Professions",
-    "description": "Добавляет новые професии и типы комнат",
+    "description": "Добавляет новые професии и типы комнат\n\nAdds new vanilla-style rooms and professions to Going Medieval",
     "author": "Фотограф",
-    "modVersion": "0.1",
+    "modVersion": "0.1.0",
     "gameVersion": "1.2.17",
     "tags": [
         "General"

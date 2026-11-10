@@ -1,0 +1,58 @@
+{
+  "repository#APPEND": [
+    {
+      "id": "mr_cellar",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "mr_room_type_cellar",
+          "info": "mr_room_info_cellar"
+        }
+      ],
+      "color": "#b08968",
+      "mustHave": [
+        {
+          "buildings": [
+            "wall_pottery_shelf",
+            "wall_bookshelf",
+            "standing_bookshelf",
+            "ornate_bookshelf"
+          ],
+          "minCount": 4
+        }
+      ],
+      "cantHaveOtherProductionBuildings": "true",
+      "cantHave": [
+        "shrine_christian_wood",
+        "large_shrine_christian_wood",
+        "large_shrine_christian_stone",
+        "large_shrine_pagan_stone",
+        "large_shrine_pagan_wood",
+        "shrine_pagan_wood",
+        "shrine_christian_stone",
+        "shrine_pagan_stone",
+        "pagan_ritual_circle",
+        "book_stand",
+        "backgammon_table",
+        "skittles",
+        "quoits",
+        "shovelboard",
+        "hay_wood_bed",
+        "hay_sleeping_spot",
+        "wicker_bed",
+        "quality_bed_linen",
+        "quality_bed_wool",
+        "royal_bed_linen",
+        "royal_bed_wool",
+        "medical_bed",
+        "prison_marker"
+      ],
+      "textKeyCantHaveBuildings": [
+        "room_cant_have_shrine",
+        "room_cant_have_entertainment",
+        "room_cant_have_beds",
+        "room_cant_have_other_workstations"
+      ]
+    }
+  ]
+}
