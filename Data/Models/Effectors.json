@@ -1,0 +1,82 @@
+{
+  "repository#APPEND": [
+    {
+      "id": "mr_inside_cellar",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "Cellar",
+          "info": "The calm and cool of the cellar keeps food fresh."
+        },
+        {
+          "languageName": "Russian",
+          "name": "Погреб",
+          "info": "Прохлада и тишина погреба сохраняют припасы свежими."
+        }
+      ],
+      "dontSave": true,
+      "uiGroup": 4,
+      "effects": [
+        {
+          "devName": "mr_cellar_mood",
+          "type": "MoodModify",
+          "parameters": [
+            { "key": "BaseValue", "value": "1" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mr_inside_crypt",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "Crypt",
+          "info": "A place of eternal rest. Inspires solemn thoughts."
+        },
+        {
+          "languageName": "Russian",
+          "name": "Усыпальница",
+          "info": "Место вечного покоя. Навевает торжественные мысли."
+        }
+      ],
+      "dontSave": true,
+      "uiGroup": 4,
+      "effects": [
+        {
+          "devName": "mr_crypt_mood",
+          "type": "MoodModify",
+          "parameters": [
+            { "key": "BaseValue", "value": "1" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mr_inside_recreation_room",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "Recreation Room",
+          "info": "A place to unwind, boosting overall mood."
+        },
+        {
+          "languageName": "Russian",
+          "name": "Комната отдыха",
+          "info": "Место для снятия стресса, повышает общее настроение."
+        }
+      ],
+      "dontSave": true,
+      "uiGroup": 4,
+      "effects": [
+        {
+          "devName": "mr_recreation_mood",
+          "type": "MoodModify",
+          "parameters": [
+            { "key": "BaseValue", "value": "2" }
+          ]
+        }
+      ]
+    }
+  ]
+}
