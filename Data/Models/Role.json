@@ -1,3 +1,92 @@
 {
-  "repository": []
+  "repository#APPEND": [
+    {
+      "id": "mr_cellar_keeper",
+      "iconPath": "broker_role_icon",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "Cellar Keeper",
+          "info": "Keeps the cellar stocked and the goods safe.",
+          "description": "A humble keeper of provisions. Ensures the cellar is organized, protects the harvest, and carries heavy loads with ease."
+        },
+        {
+          "languageName": "Russian",
+          "name": "Кладовщик",
+          "info": "Следит за порядком в погребе и сохранностью припасов.",
+          "description": "Скромный хранитель запасов. Следит за порядком в погребе, защищает урожай и с лёгкостью переносит тяжёлые грузы."
+        }
+      ],
+      "roleLevels": [
+        {
+          "level": 1,
+          "onAssignEffectorIds": ["RoleCellarKeeperLvl1Assign"],
+          "onRetractEffectorIds": ["RoleCellarKeeperLvl1Retract"],
+          "onRequirementsLostEffectors": ["RoleCellarKeeperLvl1ReqLost"],
+          "goalPreferences": [
+            { "key": "PhysicalLabourPreference", "value": 2 }
+          ],
+          "hoursRequirement": 0,
+          "skillRequirements": [
+            { "key": 0, "value": 5 }
+          ],
+          "roomRequirement": ["mr_cellar"],
+          "ownRoomRequirement": true
+        },
+        {
+          "level": 2,
+          "onAssignEffectorIds": ["RoleCellarKeeperLvl2Assign"],
+          "onRetractEffectorIds": ["RoleCellarKeeperLvl2Retract"],
+          "onRequirementsLostEffectors": ["RoleCellarKeeperLvl2ReqLost"],
+          "goalPreferences": [
+            { "key": "PhysicalLabourPreference", "value": 1 },
+            { "key": "AnimalPreference", "value": 2 }
+          ],
+          "hoursRequirement": 192,
+          "skillRequirements": [
+            { "key": 0, "value": 10 }
+          ],
+          "roomRequirement": ["mr_cellar"],
+          "ownRoomRequirement": true
+        },
+        {
+          "level": 3,
+          "onAssignEffectorIds": ["RoleCellarKeeperLvl3Assign"],
+          "onRetractEffectorIds": ["RoleCellarKeeperLvl3Retract"],
+          "onRequirementsLostEffectors": ["RoleCellarKeeperLvl3ReqLost"],
+          "goalPreferences": [
+            { "key": "PhysicalLabourPreference", "value": 1 },
+            { "key": "AnimalPreference", "value": 1 },
+            { "key": "MeleeCombatPreference", "value": 2 },
+            { "key": "RangedCombatPreference", "value": 2 }
+          ],
+          "hoursRequirement": 240,
+          "skillRequirements": [
+            { "key": 0, "value": 15 }
+          ],
+          "roomRequirement": ["mr_cellar"],
+          "ownRoomRequirement": true
+        },
+		{
+      "id": "mr_gravedigger",
+      "iconPath": "warden_role_icon",
+      "locKeys": [
+        { "languageName": "English", "name": "Gravedigger", "info": "Tends the crypts.", "description": "A solemn worker who prepares the dead for their final rest." },
+        { "languageName": "Russian", "name": "Гробовщик", "info": "Смотрит за усыпальницами.", "description": "Скорбный работник, готовящий усопших к последнему приюту." }
+      ],
+      "roleLevels": [
+        {
+          "level": 1,
+          "onAssignEffectorIds": ["RoleGravediggerLvl1Assign"],
+          "onRetractEffectorIds": ["RoleGravediggerLvl1Retract"],
+          "onRequirementsLostEffectors": ["RoleGravediggerLvl1ReqLost"],
+          "goalPreferences": [ { "key": "PhysicalLabourPreference", "value": 2 } ],
+          "hoursRequirement": 0,
+          "skillRequirements": [ { "key": 0, "value": 5 } ],
+          "roomRequirement": ["mr_crypt"],
+          "ownRoomRequirement": true
+        }
+      ]
+    }
+  ]
 }

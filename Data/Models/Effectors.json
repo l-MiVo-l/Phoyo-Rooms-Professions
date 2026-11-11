@@ -77,6 +77,126 @@
           ]
         }
       ]
+    },
+    {
+      "id": "RoleCellarKeeperLvl1Retract",
+      "locKeys": [
+        { "languageName": "English", "name": "effector_name_RoleRetract", "info": "effector_info_RoleRetractBroker" }
+      ],
+      "category": "RoleCellarKeeper",
+      "bubbleIcon": "default_mood_negative",
+      "uiGroup": 1,
+      "duration": 72,
+      "effects": [
+        { "devName": "MoodRoleRetract", "type": "MoodModify", "parameters": [ { "key": "BaseValue", "value": "-6" } ] }
+      ]
+    },
+    {
+      "id": "RoleCellarKeeperLvl1ReqLost",
+      "locKeys": [
+        { "languageName": "English", "name": "effector_name_RoleReqLost", "info": "effector_info_RoleReqLost" }
+      ],
+      "category": "RoleCellarKeeperReqLost",
+      "bubbleIcon": "default_mood_negative",
+      "dontSave": true,
+      "uiGroup": 1,
+      "effects": [
+        { "devName": "MoodRoleReqLost", "type": "MoodModify", "parameters": [ { "key": "BaseValue", "value": "-3" } ] }
+      ]
+    },
+    {
+      "id": "RoleCellarKeeperLvl2Retract",
+      "locKeys": [
+        { "languageName": "English", "name": "effector_name_RoleRetract", "info": "effector_info_RoleRetractBroker" }
+      ],
+      "category": "RoleCellarKeeper",
+      "bubbleIcon": "default_mood_negative",
+      "uiGroup": 1,
+      "duration": 96,
+      "effects": [
+        { "devName": "MoodRoleRetract2", "type": "MoodModify", "parameters": [ { "key": "BaseValue", "value": "-8" } ] }
+      ]
+    },
+    {
+      "id": "RoleCellarKeeperLvl2ReqLost",
+      "locKeys": [
+        { "languageName": "English", "name": "effector_name_RoleReqLost", "info": "effector_info_RoleReqLost" }
+      ],
+      "category": "RoleCellarKeeperReqLost",
+      "bubbleIcon": "default_mood_negative",
+      "dontSave": true,
+      "uiGroup": 1,
+      "effects": [
+        { "devName": "MoodRoleReqLost2", "type": "MoodModify", "parameters": [ { "key": "BaseValue", "value": "-5" } ] }
+      ]
+    },
+    {
+      "id": "RoleCellarKeeperLvl3Retract",
+      "locKeys": [
+        { "languageName": "English", "name": "effector_name_RoleRetract", "info": "effector_info_RoleRetractBroker" }
+      ],
+      "category": "RoleCellarKeeper",
+      "bubbleIcon": "default_mood_negative",
+      "uiGroup": 1,
+      "duration": 120,
+      "effects": [
+        { "devName": "MoodRoleRetract3", "type": "MoodModify", "parameters": [ { "key": "BaseValue", "value": "-10" } ] }
+      ]
+    },
+    {
+      "id": "RoleCellarKeeperLvl3ReqLost",
+      "locKeys": [
+        { "languageName": "English", "name": "effector_name_RoleReqLost", "info": "effector_info_RoleReqLost" }
+      ],
+      "category": "RoleCellarKeeperReqLost",
+      "bubbleIcon": "default_mood_negative",
+      "dontSave": true,
+      "uiGroup": 1,
+      "effects": [
+        { "devName": "MoodRoleReqLost3", "type": "MoodModify", "parameters": [ { "key": "BaseValue", "value": "-7" } ] }
+      ]
+    },
+	    {
+      "id": "RoleCellarKeeperLvl1Assign",
+      "locKeys": [
+        { "languageName": "English", "name": "effector_name_RoleAssign", "info": "effector_info_RoleAssign" }
+      ],
+      "category": "RoleCellarKeeper",
+      "bubbleIcon": "default_mood_positive",
+      "dontSave": true,
+      "uiGroup": 1,
+      "effects": [
+        { "devName": "MoodRoleLvl1", "type": "MoodModify", "parameters": [ { "key": "BaseValue", "value": "4" } ] },
+        { "devName": "GlobalWorkSpeed_1", "type": "AttributeModify", "parameters": [ { "key": "Attribute", "value": "GlobalWorkSpeed" }, { "key": "Multiplier", "value": "1.05" } ] }
+      ]
+    },
+    {
+      "id": "RoleCellarKeeperLvl2Assign",
+      "locKeys": [
+        { "languageName": "English", "name": "effector_name_RoleAssign", "info": "effector_info_RoleAssign" }
+      ],
+      "category": "RoleCellarKeeper",
+      "bubbleIcon": "default_mood_positive",
+      "dontSave": true,
+      "uiGroup": 1,
+      "effects": [
+        { "devName": "MoodRoleLvl2", "type": "MoodModify", "parameters": [ { "key": "BaseValue", "value": "6" } ] },
+        { "devName": "GlobalWorkSpeed_2", "type": "AttributeModify", "parameters": [ { "key": "Attribute", "value": "GlobalWorkSpeed" }, { "key": "Multiplier", "value": "1.1" } ] }
+      ]
+    },
+    {
+      "id": "RoleCellarKeeperLvl3Assign",
+      "locKeys": [
+        { "languageName": "English", "name": "effector_name_RoleAssign", "info": "effector_info_RoleAssign" }
+      ],
+      "category": "RoleCellarKeeper",
+      "bubbleIcon": "default_mood_positive",
+      "dontSave": true,
+      "uiGroup": 1,
+      "effects": [
+        { "devName": "MoodRoleLvl3", "type": "MoodModify", "parameters": [ { "key": "BaseValue", "value": "8" } ] },
+        { "devName": "GlobalWorkSpeed_3", "type": "AttributeModify", "parameters": [ { "key": "Attribute", "value": "GlobalWorkSpeed" }, { "key": "Multiplier", "value": "1.15" } ] }
+      ]
     }
   ]
 }
